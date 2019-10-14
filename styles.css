@@ -1,0 +1,111 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+p {
+  padding-top: 20px;
+  padding-right: 15px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+}
+hi {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+ul {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+
+h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+
+img{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 150px;
+  margin-left: 80px;}
+figcaption{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+.caption{
+  font: 60px Didot, sans-serif; 
+}
+.mainText{
+  font: 20px Didot, sans-serif; 
+}
+.position{
+  font: 30px Didot, sans-serif;
+  font-weight:bold;
+}
+ul#list{
+  font: 14px Didor, sans-serif;
+  padding: 20px;
+  background-color:aliceBlue
+  list-style:none; text-align:center; border-top:1px solid #eee; border-bottom:1px solid #eee; padding:10px 0; }
+#list{ }
+#list ul li { display:inline; text-transform:uppercase; padding:0 10px; letter-spacing:10px; }
+#list ul li a { text-decoration:none; color:#eee; }
+#list ul li a:hover { text-decoration:underline; }
+}
+figcaption#description{
+  font: 11px Didor, sans-serif;
+  background-color:aliceBlue;
+  font-style: italic;
+}
+
